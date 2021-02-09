@@ -1,9 +1,10 @@
 .produto{
-    width:150px;
+    max-width:190px;
     border: 1px solid black; 
     border-radius:4px;
     padding: 2px;
     margin: 5px;
+    background-color: rgba(0,0,0,0);
 }
 
 .foto{
