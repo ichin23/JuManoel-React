@@ -35,7 +35,7 @@ function App() {
     <div className="vitrine">
 
     <ProductList produtos={[
-      {nome:"AllStar", picture: "https://drive.google.com/file/d/1OYOt51QCLuZtxq3wFG5HDMAYKvKHJn_l/view?usp=sharing", type: "sapato", tamanho: "todos"},
+      {nome:"AllStar", picture: "img/sapatos/sandalia.jpg", type: "sapato", tamanho: "todos"},
       {nome:"AllStar", picture:"./img/sapatos/AllStar-preto.jpg", sapato:true, pequeno:false, medio:false, grande:false},
       {nome:"AllStar", picture:"./img/sapatos/AllStar-preto.jpg", sapato:true, pequeno:false, medio:false, grande:false},
 ]}/>
