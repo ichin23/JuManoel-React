@@ -34,12 +34,7 @@ function App() {
   return (
     <div>
     <Menu />
-    <div className="vitrine">
-
-    <ProductList produtos={produtos}/>
-
     
-    </div>
     </div>
 
   );

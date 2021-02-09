@@ -75,14 +75,14 @@
       background-color: #fff;
   }
   
-  .items-mobile a{
+  .items-mobile li{
     display: block;
     padding: 20px 20px;
     border-right: 1px solid #f4f4f4;
     text-decoration: none;
   }
 
-  .items-mobile a:hover{
+  .items-mobile li:hover{
     background-color: #f4f4f4;
   }
 
