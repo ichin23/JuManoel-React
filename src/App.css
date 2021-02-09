@@ -10,3 +10,31 @@ a{
     flex-wrap: wrap;
     justify-content: center;
 }
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin: 0 auto;
+    
+
+    grid-gap: 3px;
+}
+
+@media (max-width: 820px){
+    .grid-container{
+        
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (max-width: 768px){
+    .grid-container{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 700px){
+    .grid-container{        
+        grid-template-columns: 1fr;
+    }
+}

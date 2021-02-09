@@ -1,4 +1,4 @@
-import burguer from "../img/burguer.png"
+
 import "./css/menu.css"
 
 function Menu(){
