@@ -7,7 +7,7 @@ function Menu(){
       <nav className="menu">
         <p className="logo">JuManoel</p>
         <ul className="items-desktop">
-          <a href="#"><li>Laços</li></a>
+          <a href="../lacos.js"><li>Laços</li></a>
           <a href="#"><li>Sapatinhos</li></a>
           <a href="#"><li>Paletas</li></a>
         </ul>

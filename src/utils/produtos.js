@@ -16,6 +16,10 @@ return produtos=[
     {nome:"Sapato Perolado Amarelo", picture: "img/sapatos/sapato_perolado_amarelo.jpg", type: "sapato", tamanho: "todos"},
     {nome:"Sapato Perolado Preto", picture: "img/sapatos/sapato_perolado_preto.jpg", type: "sapato", tamanho: "todos"},
     
+
+    //Laços
+
+    {nome:"Tiara Flor", picture: "img/lacos/tiara_flor.jpg", type: "laco", tamanho: "8cm"}
 ]}
 
 export default produtos();
