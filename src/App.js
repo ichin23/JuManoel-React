@@ -36,6 +36,7 @@ function App() {
     <div className="vitrine">
 
     <ProductList produtos={[
+<<<<<<< HEAD
       {nome:"AllStar Preto", picture: "img/sapatos/allstarpreto.jpg", type: "sapato", tamanho: "todos"},
       {nome:"AllStar Vermelho", picture: "img/sapatos/AllStar-vermelho.jpg", type: "sapato", tamanho: "todos"},
       {nome:"Alpargata", picture: "img/sapatos/alpargata.jpg", type: "sapato", tamanho: "todos"},
@@ -47,6 +48,11 @@ function App() {
       {nome:"Sandalinha", picture: "img/sapatos/sandalia.jpg", type: "sapato", tamanho: "todos"},
       {nome:"Sapato Cachorrinho", picture: "img/sapatos/sapato_cachorrinho.jpg", type: "sapato", tamanho: "todos"},
       
+=======
+      {nome:"AllStar", picture: "img/sapatos/sandalia.jpg", type: "sapato", tamanho: "todos"},
+      {nome:"AllStar", picture:"./img/sapatos/AllStar-preto.jpg", sapato:true, pequeno:false, medio:false, grande:false},
+      {nome:"AllStar", picture:"./img/sapatos/AllStar-preto.jpg", sapato:true, pequeno:false, medio:false, grande:false},
+>>>>>>> 7cfd8eff04f8da17863d7754ecc2af6f2b071529
 ]}/>
 
     
