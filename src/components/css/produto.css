@@ -1,0 +1,31 @@
+.produto{
+    width:150px;
+    border: 1px solid black; 
+    border-radius:4px;
+    padding: 2px;
+    margin: 5px;
+}
+
+.foto{
+    width:100%;
+    height: auto;
+}
+
+.title{
+    text-align: center;
+}
+
+
+
+@media screen and (max-width: 768px){
+    .produto{
+        margin: 3px;
+        margin-right: 3px;
+        width: 97%;
+    }
+
+    .title{
+        font-size: 30px;
+        text-align: center;
+    }
+}
