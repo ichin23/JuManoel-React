@@ -34,9 +34,9 @@
 
 
 
-@media (max-width: 605px){
+@media (max-width: 720px){
     .produto{
         width: 100%;
-        max-width: 550px;
+        max-width: 600px;
     }
 }
