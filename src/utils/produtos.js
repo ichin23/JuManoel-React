@@ -19,7 +19,23 @@ return produtos=[
 
     //Laços
 
-    {nome:"Tiara Flor", picture: "img/lacos/tiara_flor.jpg", type: "laco", tamanho: "8cm"}
+    {nome:"Tiara Flor", picture: "img/lacos/tiara_flor.jpg", type: "laco", tamanho: "8cm"},
+    {nome: "Prendedor Pompom", picture: "img/lacos/prendedor_pompom.jpg", type: "laco"},
+    {nome: "Arquinho com adaptador para Bico de Pato", picture: "img/lacos/arquinho_com_adaptador.jpg", type: "laco"},
+    {nome: "Laço Mulher Maravilha biscuit", picture: "img/lacos/laco_biscuit_mulher_maravilha.jpg", type: "laco"},
+    {nome: "Laço biscuit Menina", picture: "img/lacos/laco_biscuit_menina.jpg", type: "laco"},
+    {nome: "Prendedor Duplo Fruta", picture: "img/lacos/prendedor_duplo_fruta.jpg", type: "laco"},
+    {nome: "Laço com flores", picture: "img/lacos/laco_com_flores.jpg", type: "laco"},
+    {nome: "Laço com Flores Vermelho", picture: "img/lacos/laco_com_flores_vermelho.jpg", type: "laco"},
+    {nome: "Laço Panda", picture: "img/lacos/laco_panda.jpg", type: "laco"},
+    {nome: "Laço Malévola", picture: "img/lacos/laco_melevola.jpg", type: "laco"},
+    {nome: "Tiara Borboleta", picture: "img/lacos/tiara_borboleta.jpg", type: "laco"},
+    {nome: "Touca de lã", picture: "img/lacos/touca.jpg", type: "laco"},
+
+
+
+    //Paletas
+    {nome: "Paleta 01", picture: "img/paleta/paleta01.jpg", type: "paleta"},
 ]}
 
 export default produtos();

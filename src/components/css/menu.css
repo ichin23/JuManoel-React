@@ -45,11 +45,12 @@
 .logo{
   position: absolute;
   vertical-align: middle;
-  left: 8px;
+  left: 50px;
   top: 0px;
   font-family: 'Kaushan Script', cursive;
   color: red;
   font-size: 40px;
+  
 }
 
 
@@ -154,3 +155,8 @@
 }
 }
   
+.menu img, .menu-mobile img{
+  position:absolute;
+  left: 8px;
+  
+}

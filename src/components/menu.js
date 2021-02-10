@@ -19,6 +19,7 @@ class Menu extends Component{
       <div>
         <header>
       <nav className="menu">
+        <img src="img/laco.png" width="40"/>
         <p className="logo">JuManoel</p>
         
         <ul className="items-desktop">
@@ -46,6 +47,7 @@ class Menu extends Component{
       </nav>
 
       <nav className="menu-mobile">
+      <img src="img/laco.png" width="40"/>
         <p className="logo">JuManoel</p>
         <input class="menu-btn" type="checkbox" id="menu-btn" />
         <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
@@ -87,7 +89,15 @@ class Menu extends Component{
                 
                 <Produto title={p.nome} photo={p.picture}/>
                 )}}
+
+              if(this.state.contador==3){
+                if(p.type=="paleta"){
+              return(
+                
+                <Produto title={p.nome} photo={p.picture}/>
+                )}}
           })
+
         }
       </div>
     </div>
