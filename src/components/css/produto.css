@@ -1,5 +1,5 @@
 .produto{
-    max-width:190px;
+    max-width:250px;
     border: 1px solid black; 
     border-radius:4px;
     padding: 2px;
@@ -23,7 +23,7 @@
         margin: 3px;
         margin-right: 3px;
         width: 100%;
-        max-width: 290px;
+        max-width: 350px;
     }
 
     .title{
@@ -33,9 +33,10 @@
 }
 
 
+
 @media (max-width: 605px){
     .produto{
         width: 100%;
-        max-width: 370px;
+        max-width: 550px;
     }
 }
