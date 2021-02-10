@@ -3,6 +3,18 @@ import "./css/menu.css"
 import Produto from "./produto";
 import produtos from "../utils/produtos.js";
 
+import styled from 'styled-components';
+
+
+const Paleta = styled.div`
+    background: ${props => props.backgroundColor};
+    height: 150px;
+    width: 150px;
+    
+    display: block;
+`;
+
+
 class Menu extends Component{
 
   constructor(props) {
@@ -50,7 +62,7 @@ class Menu extends Component{
       <img src="img/laco.png" width="40"/>
         <p className="logo">JuManoel</p>
         <input class="menu-btn" type="checkbox" id="menu-btn" />
-        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+        <label class="menu-icon"><span class="navicon"></span></label>
         <ul className="items-mobile">
             <li onClick={()=> {
               let state= this.state;
@@ -74,31 +86,39 @@ class Menu extends Component{
       </nav>
     </header>
     <div className="vitrine">
-    <div className="grid-container">
+    <div className="grid-container"> 
         {
           produtos.map(p=>{
+            
+            
             if(this.state.contador==1){
               if(p.type=="sapato"){
             return(
               
               <Produto title={p.nome} photo={p.picture}/>
               )}}
-              if(this.state.contador==2){
+              else if(this.state.contador==2){
                 if(p.type=="laco"){
               return(
                 
                 <Produto title={p.nome} photo={p.picture}/>
                 )}}
-
-              if(this.state.contador==3){
-                if(p.type=="paleta"){
-              return(
                 
-                <Produto title={p.nome} photo={p.picture}/>
-                )}}
-          })
-
-        }
+              }
+          )}
+          <div className="paleta-center">
+          <div className="paleta-grid">
+          {
+            produtos.map(p=>{
+              if(this.state.contador==3){
+                if(p.type=="paleta"){                  
+                  return(                    
+                    <Paleta backgroundColor={p.cor}>{p.nome}</Paleta>
+                  )}
+              }
+            })
+          }</div></div>
+        
       </div>
     </div>
     </div>

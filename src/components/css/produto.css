@@ -22,11 +22,20 @@
     .produto{
         margin: 3px;
         margin-right: 3px;
-        width: 97%;
+        width: 100%;
+        max-width: 290px;
     }
 
     .title{
         font-size: 30px;
         text-align: center;
+    }
+}
+
+
+@media (max-width: 605px){
+    .produto{
+        width: 100%;
+        max-width: 370px;
     }
 }

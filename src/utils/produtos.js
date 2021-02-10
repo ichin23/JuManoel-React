@@ -35,7 +35,20 @@ return produtos=[
 
 
     //Paletas
-    {nome: "Paleta 01", picture: "img/paleta/paleta01.jpg", type: "paleta"},
+    //{nome: "Paleta 01", picture: "img/paleta/paleta01.jpg", type: "paleta"},
+    
+    {type: "paleta", cor: "#80C704"},
+    {cor: "#564F15", type: "paleta"},
+    {cor: "#0A6562",type: "paleta"},
+    {cor: "#126F55", type: "paleta"},
+    {cor: "#5DAA8E",type: "paleta"},
+    {cor: "#99BBA1",type: "paleta"},
+    {cor: "#11182F", type: "paleta"},
+    {cor: "#05456A", type: "paleta"},
+    {cor: "#024890",type: "paleta"},
+    {cor:"#758DB3",type: "paleta"},
+    {cor: "#7995AB", type: "paleta"},
+    
 ]}
 
 export default produtos();
