@@ -29,62 +29,33 @@ class Menu extends Component{
   render(){
     return (
       <div>
-        <header>
+       
       <nav className="menu">
-        <img src="img/laco.png" width="40"/>
-        <p className="logo">JuManoel</p>
-        
-        <ul className="items-desktop">
+        <img src="img/laco.png" width="40" height="48" className="menina"/>
+        <input type="checkbox" id="check" />
+        <label for="check" class="checkbtn">	&#9776;</label>
+        <label className="logo">JuManoel</label>
+        <ul className="items">
           <li onClick={()=> {
-            let state= this.state;
-            state.contador=1;
-            this.setState(state);
-            console.log(state.contador)
-          }}>Sapatinhos</li>
-
+                let state= this.state;
+                state.contador=1;
+                this.setState(state);
+                console.log(state.contador)
+          }}><label for="check">Sapatinhos</label></li>
           <li onClick={()=> {
             let state= this.state;
             state.contador=2;
             this.setState(state);
             console.log(state.contador)
-          }}>Laços</li>
-
-          <li onClick={()=> {
-            let state= this.state;
-            state.contador=3;
-            this.setState(state);
-            console.log(state.contador)
-          }}>Paletas</li>
-        </ul>
-      </nav>
-
-      <nav className="menu-mobile">
-      <img src="img/laco.png" width="40"/>
-        <p className="logo">JuManoel</p>
-        <input class="menu-btn" type="checkbox" id="menu-btn" />
-        <label class="menu-icon"><span class="navicon"></span></label>
-        <ul className="items-mobile">
-            <li onClick={()=> {
+            }}><label for="check">Laços</label></li>
+              <li onClick={()=> {
               let state= this.state;
-              state.contador=1;
+              state.contador=3;
               this.setState(state);
               console.log(state.contador)
-            }}>Sapatinhos</li>
-            <li onClick={()=> {
-            let state= this.state;
-            state.contador=2;
-            this.setState(state);
-            console.log(state.contador)
-          }}>Laços</li>
-            <li onClick={()=> {
-            let state= this.state;
-            state.contador=3;
-            this.setState(state);
-            console.log(state.contador)
-          }}>Paletas</li>
-        </ul>
-      </nav>
-    </header>
+            }}><label for="check">Paletas</label></li>
+          </ul></nav>
+     
     <div className="vitrine">
     <div className="grid-container"> 
         {
