@@ -102,6 +102,10 @@
   #check:checked ~ ul{
     left: 0;
   }
+
+  .logo{
+    font-size:40px;
+  }
 }
 
 
